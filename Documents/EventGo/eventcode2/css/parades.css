@@ -1,0 +1,885 @@
+
+@font-face {
+                          font-family: "Arial-BoldItalicMT";
+                          src: url('../fonts/Arial Bold Italic.ttf') format("truetype");
+                        }
+                        @font-face {
+                          font-family: "Arial-ItalicMT";
+                          src: url('../fonts/Arial Italic.ttf') format("truetype");
+                        }
+                        
+.parades {
+  width               : 100%;
+  min-width           : 1280px;
+  height              : 100vh;
+  min-height          : 1192px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color    : rgba(236, 143, 106, 1.0);
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.anima-full-width-a {
+  width               : 100%;
+}
+.anima-full-height-a {
+  height              : 100%;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.parades .parades1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 210px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 1036px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 600;
+  font-style          : normal;
+  font-size           : 31.0px;
+  color               : rgba(42, 102, 91, 1.0);
+  text-align          : center;
+  line-height         : 31.0px;
+}
+.parades .parades1 .span1 {
+  line-height         : 36.0px;
+}
+.parades .parades1 .span2 {
+  font-size           : 32.0px;
+  line-height         : 37.0px;
+}
+.parades .yourlocation {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 215px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 203px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 600;
+  font-style          : normal;
+  font-size           : 28.0px;
+  color               : rgba(42, 102, 91, 1.0);
+  text-align          : center;
+  line-height         : 32.0px;
+}
+.parades .princetonnewjerse {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 246px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 228px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 600;
+  font-style          : normal;
+  font-size           : 40.0px;
+  color               : rgba(42, 101, 90, 1.0);
+  text-align          : center;
+  line-height         : 45.0px;
+}
+.parades .changelocation {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 290px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 510px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Arial-BoldItalicMT", Helvetica, Arial, serif;
+  font-size           : 19.0px;
+  color               : rgba(110, 121, 119, 1.0);
+  text-align          : center;
+  line-height         : 22.0px;
+}
+.parades .rectangle {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 195px;
+  height              : 58px;
+  width               : 58px;
+  position            : absolute;
+  margin              : 0;
+  left                : 972px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.parades .rectangle1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 270px;
+  height              : 58px;
+  width               : 58px;
+  position            : absolute;
+  margin              : 0;
+  left                : 708px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.parades .fundraisers {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 282px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 773px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 600;
+  font-style          : normal;
+  font-size           : 31.0px;
+  color               : rgba(42, 102, 91, 1.0);
+  text-align          : left;
+  line-height         : 31.0px;
+}
+.parades .fundraisers .span1 {
+  line-height         : 36.0px;
+}
+.parades .fundraisers .span2 {
+  font-size           : 32.0px;
+  line-height         : 37.0px;
+}
+.parades .rectangle2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 197px;
+  height              : 58px;
+  width               : 58px;
+  position            : absolute;
+  margin              : 0;
+  left                : 708px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.parades .musicartists {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 209px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 773px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 600;
+  font-style          : normal;
+  font-size           : 31.0px;
+  color               : rgba(42, 102, 91, 1.0);
+  text-align          : left;
+  line-height         : 31.0px;
+}
+.parades .musicartists .span1 {
+  line-height         : 36.0px;
+}
+.parades .musicartists .span2 {
+  font-size           : 32.0px;
+  line-height         : 37.0px;
+}
+.parades .eventtypes {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 136px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 712px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 600;
+  font-style          : normal;
+  font-size           : 31.0px;
+  color               : rgba(42, 102, 91, 1.0);
+  text-align          : left;
+  line-height         : 36.0px;
+}
+.parades .line {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 646px;
+  height              : 5px;
+  width               : 1060px;
+  position            : absolute;
+  margin              : 0;
+  left                : 113px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.parades .line1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 414px;
+  height              : 5px;
+  width               : 1060px;
+  position            : absolute;
+  margin              : 0;
+  left                : 113px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.parades .line2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 878px;
+  height              : 5px;
+  width               : 1060px;
+  position            : absolute;
+  margin              : 0;
+  left                : 113px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.parades .rectangle3 {
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : 447px;
+  height              : 170px;
+  box-sizing          : border-box;
+  width               : 281px;
+  position            : absolute;
+  margin              : 0;
+  left                : 143px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(150, 150, 150, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.parades .bitmap {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 448px;
+  height              : 171px;
+  width               : 289px;
+  position            : absolute;
+  margin              : 0;
+  left                : 143px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.parades .rectangle4 {
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : 679px;
+  height              : 170px;
+  box-sizing          : border-box;
+  width               : 281px;
+  position            : absolute;
+  margin              : 0;
+  left                : 143px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(150, 150, 150, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.parades .bitmap1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 679px;
+  height              : 177px;
+  width               : 284px;
+  position            : absolute;
+  margin              : 0;
+  left                : 143px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.parades .cooperriverparkc {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 483px;
+  height              : auto;
+  width               : 608px;
+  position            : absolute;
+  margin              : 0;
+  left                : 476px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Arial-BoldItalicMT", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(42, 102, 91, 1.0);
+  text-align          : left;
+  line-height         : 23.0px;
+}
+.parades .a44thannualhispanic {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 682px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 477px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 600;
+  font-style          : normal;
+  font-size           : 28.0px;
+  color               : rgba(42, 102, 91, 1.0);
+  text-align          : left;
+  line-height         : 32.0px;
+}
+.parades .northbergennj {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 720px;
+  height              : auto;
+  width               : 608px;
+  position            : absolute;
+  margin              : 0;
+  left                : 674px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Arial-BoldItalicMT", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(42, 102, 91, 1.0);
+  text-align          : left;
+  line-height         : 23.0px;
+}
+.parades .thiseventcelebrate {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 757px;
+  height              : auto;
+  width               : 699px;
+  position            : absolute;
+  margin              : 0;
+  left                : 482px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 23.0px;
+  color               : rgba(42, 102, 91, 1.0);
+  text-align          : left;
+  line-height         : 27.0px;
+}
+.parades .welookforwardtos {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 978px;
+  height              : auto;
+  width               : 699px;
+  position            : absolute;
+  margin              : 0;
+  left                : 482px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 23.0px;
+  color               : rgba(42, 102, 91, 1.0);
+  text-align          : left;
+  line-height         : 27.0px;
+}
+.parades .line3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 646px;
+  height              : 5px;
+  width               : 1060px;
+  position            : absolute;
+  margin              : 0;
+  left                : 113px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.parades .line4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 416px;
+  height              : 1px;
+  width               : 1055px;
+  position            : absolute;
+  margin              : 0;
+  left                : 116px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.parades .line5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 878px;
+  height              : 5px;
+  width               : 1060px;
+  position            : absolute;
+  margin              : 0;
+  left                : 113px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.parades .oct61200pm40 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 680px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 976px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 600;
+  font-style          : normal;
+  font-size           : 21.0px;
+  color               : rgba(42, 102, 91, 1.0);
+  text-align          : right;
+  line-height         : 24.0px;
+}
+.parades .line6 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1109px;
+  height              : 5px;
+  width               : 1060px;
+  position            : absolute;
+  margin              : 0;
+  left                : 113px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.parades .line7 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 877px;
+  height              : 5px;
+  width               : 1060px;
+  position            : absolute;
+  margin              : 0;
+  left                : 113px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.parades .rectangle5 {
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : 910px;
+  height              : 170px;
+  box-sizing          : border-box;
+  width               : 281px;
+  position            : absolute;
+  margin              : 0;
+  left                : 143px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(150, 150, 150, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.parades .bitmap2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 910px;
+  height              : 170px;
+  width               : 280px;
+  position            : absolute;
+  margin              : 0;
+  left                : 144px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.parades .trentonpuertorican {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 910px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 476px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 600;
+  font-style          : normal;
+  font-size           : 28.0px;
+  color               : rgba(42, 102, 91, 1.0);
+  text-align          : center;
+  line-height         : 32.0px;
+}
+.parades .newjerseygaypride {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 451px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 475px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 600;
+  font-style          : normal;
+  font-size           : 28.0px;
+  color               : rgba(42, 102, 91, 1.0);
+  text-align          : center;
+  line-height         : 32.0px;
+}
+.parades .weinviteallofsou {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 514px;
+  height              : auto;
+  width               : 700px;
+  position            : absolute;
+  margin              : 0;
+  left                : 477px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 23.0px;
+  color               : rgba(42, 102, 91, 1.0);
+  text-align          : left;
+  line-height         : 27.0px;
+}
+.parades .sept81200pm6 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 440px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 982px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 600;
+  font-style          : normal;
+  font-size           : 21.0px;
+  color               : rgba(42, 102, 91, 1.0);
+  text-align          : right;
+  line-height         : 24.0px;
+}
+.parades .sept81200pm61 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 912px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 984px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 600;
+  font-style          : normal;
+  font-size           : 21.0px;
+  color               : rgba(42, 102, 91, 1.0);
+  text-align          : right;
+  line-height         : 24.0px;
+}
+.parades .trentonnj {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 941px;
+  height              : auto;
+  width               : 608px;
+  position            : absolute;
+  margin              : 0;
+  left                : 477px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Arial-BoldItalicMT", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(42, 102, 91, 1.0);
+  text-align          : left;
+  line-height         : 23.0px;
+}
+.parades .andrewyan {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 15px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 1105px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 28.0px;
+  color               : rgba(126, 207, 192, 1.0);
+  text-align          : center;
+  line-height         : 32.0px;
+}
+.parades .rectangle6 {
+  background-color    : rgba(239, 75, 75, 0.9);
+  top                 : 0px;
+  height              : 56px;
+  width               : 1280px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.parades .andrewyan1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 15px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 1105px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 28.0px;
+  color               : rgba(126, 207, 192, 1.0);
+  text-align          : center;
+  line-height         : 32.0px;
+}
+.parades .eventgo {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : auto;
+  width               : 347px;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 600;
+  font-style          : normal;
+  font-size           : 45.0px;
+  color               : rgba(126, 207, 192, 1.0);
+  text-align          : center;
+  line-height         : 52.0px;
+}
+.parades .outputonlinepngtools {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 56px;
+  width               : 47px;
+  position            : absolute;
+  margin              : 0;
+  left                : 24px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.parades .rectangle7 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 266px;
+  height              : 58px;
+  width               : 58px;
+  position            : absolute;
+  margin              : 0;
+  left                : 972px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.parades .protests {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 278px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 1037px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 600;
+  font-style          : normal;
+  font-size           : 31.0px;
+  color               : rgba(42, 102, 91, 1.0);
+  text-align          : left;
+  line-height         : 31.0px;
+}
+.parades .protests .span1 {
+  line-height         : 36.0px;
+}
+.parades .protests .span2 {
+  font-size           : 32.0px;
+  line-height         : 37.0px;
+}
+.parades .outputonlinepngtools1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 97px;
+  height              : 236px;
+  width               : 199px;
+  position            : absolute;
+  margin              : 0;
+  left                : 30px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.parades .outputonlinepngtools2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 274px;
+  height              : 40px;
+  width               : 53px;
+  position            : absolute;
+  margin              : 0;
+  left                : 973px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.parades .outputonlinepngtools3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 203px;
+  height              : 35px;
+  width               : 36px;
+  position            : absolute;
+  margin              : 0;
+  left                : 981px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.parades .bitmap3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 211px;
+  height              : 31px;
+  width               : 31px;
+  position            : absolute;
+  margin              : 0;
+  left                : 720px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.parades .dollarsigntransparentbackground3926 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 283px;
+  height              : 35px;
+  width               : 35px;
+  position            : absolute;
+  margin              : 0;
+  left                : 718px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}

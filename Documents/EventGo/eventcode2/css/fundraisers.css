@@ -1,0 +1,979 @@
+
+@font-face {
+                          font-family: "Arial-BoldItalicMT";
+                          src: url('../fonts/Arial Bold Italic.ttf') format("truetype");
+                        }
+                        @font-face {
+                          font-family: "Arial-ItalicMT";
+                          src: url('../fonts/Arial Italic.ttf') format("truetype");
+                        }
+                        
+.fundraisers {
+  width               : 100%;
+  min-width           : 1280px;
+  height              : 100vh;
+  min-height          : 1140px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color    : rgba(236, 143, 106, 1.0);
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.anima-full-width-a {
+  width               : 100%;
+}
+.anima-full-height-a {
+  height              : 100%;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.fundraisers .yourlocation {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 215px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 203px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 600;
+  font-style          : normal;
+  font-size           : 28.0px;
+  color               : rgba(42, 102, 91, 1.0);
+  text-align          : center;
+  line-height         : 32.0px;
+}
+.fundraisers .princetonnewjerse {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 246px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 228px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 600;
+  font-style          : normal;
+  font-size           : 40.0px;
+  color               : rgba(42, 101, 90, 1.0);
+  text-align          : center;
+  line-height         : 45.0px;
+}
+.fundraisers .changelocation {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 285px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 528px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Arial-BoldItalicMT", Helvetica, Arial, serif;
+  font-size           : 19.0px;
+  color               : rgba(110, 121, 119, 1.0);
+  text-align          : center;
+  line-height         : 22.0px;
+}
+.fundraisers .rectangle {
+  background-color    : rgba(239, 75, 75, 0.9);
+  top                 : 0px;
+  height              : 56px;
+  width               : 1280px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.fundraisers .underdog {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : auto;
+  width               : 347px;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 600;
+  font-style          : normal;
+  font-size           : 45.0px;
+  color               : rgba(126, 207, 192, 1.0);
+  text-align          : center;
+  line-height         : 52.0px;
+}
+.fundraisers .line {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 646px;
+  height              : 5px;
+  width               : 1060px;
+  position            : absolute;
+  margin              : 0;
+  left                : 113px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.fundraisers .line1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 414px;
+  height              : 5px;
+  width               : 1060px;
+  position            : absolute;
+  margin              : 0;
+  left                : 113px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.fundraisers .line2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 878px;
+  height              : 5px;
+  width               : 1060px;
+  position            : absolute;
+  margin              : 0;
+  left                : 113px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.fundraisers .rectangle1 {
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : 447px;
+  height              : 170px;
+  box-sizing          : border-box;
+  width               : 281px;
+  position            : absolute;
+  margin              : 0;
+  left                : 143px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(150, 150, 150, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.fundraisers .bitmap {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 447px;
+  height              : 167px;
+  width               : 280px;
+  position            : absolute;
+  margin              : 0;
+  left                : 143px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.fundraisers .rectangle2 {
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : 679px;
+  height              : 170px;
+  box-sizing          : border-box;
+  width               : 281px;
+  position            : absolute;
+  margin              : 0;
+  left                : 143px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(150, 150, 150, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.fundraisers .woodbridgenj {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 483px;
+  height              : auto;
+  width               : 608px;
+  position            : absolute;
+  margin              : 0;
+  left                : 476px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Arial-BoldItalicMT", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(42, 102, 91, 1.0);
+  text-align          : left;
+  line-height         : 23.0px;
+}
+.fundraisers .genslergolfforthe {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 682px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 477px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 600;
+  font-style          : normal;
+  font-size           : 28.0px;
+  color               : rgba(42, 102, 91, 1.0);
+  text-align          : left;
+  line-height         : 32.0px;
+}
+.fundraisers .roycebrookgolfclu {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 716px;
+  height              : auto;
+  width               : 608px;
+  position            : absolute;
+  margin              : 0;
+  left                : 478px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Arial-BoldItalicMT", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(42, 102, 91, 1.0);
+  text-align          : left;
+  line-height         : 23.0px;
+}
+.fundraisers .thegenslergolffor {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 748px;
+  height              : auto;
+  width               : 699px;
+  position            : absolute;
+  margin              : 0;
+  left                : 482px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 23.0px;
+  color               : rgba(42, 102, 91, 1.0);
+  text-align          : left;
+  line-height         : 27.0px;
+}
+.fundraisers .helpingthisorganiz {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 517px;
+  height              : auto;
+  width               : 699px;
+  position            : absolute;
+  margin              : 0;
+  left                : 478px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 23.0px;
+  color               : rgba(42, 102, 91, 1.0);
+  text-align          : left;
+  line-height         : 27.0px;
+}
+.fundraisers .line3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 646px;
+  height              : 5px;
+  width               : 1060px;
+  position            : absolute;
+  margin              : 0;
+  left                : 113px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.fundraisers .line4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 416px;
+  height              : 1px;
+  width               : 1055px;
+  position            : absolute;
+  margin              : 0;
+  left                : 116px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.fundraisers .line5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 878px;
+  height              : 5px;
+  width               : 1060px;
+  position            : absolute;
+  margin              : 0;
+  left                : 113px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.fundraisers .line6 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 877px;
+  height              : 5px;
+  width               : 1060px;
+  position            : absolute;
+  margin              : 0;
+  left                : 113px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.fundraisers .livefundraisingart {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 910px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 477px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 600;
+  font-style          : normal;
+  font-size           : 28.0px;
+  color               : rgba(42, 102, 91, 1.0);
+  text-align          : left;
+  line-height         : 32.0px;
+}
+.fundraisers .bitmap1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 679px;
+  height              : 172px;
+  width               : 283px;
+  position            : absolute;
+  margin              : 0;
+  left                : 143px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.fundraisers .chipotlefundraiser {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 451px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 476px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 600;
+  font-style          : normal;
+  font-size           : 28.0px;
+  color               : rgba(42, 102, 91, 1.0);
+  text-align          : left;
+  line-height         : 32.0px;
+}
+.fundraisers .sept10300pm7 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 440px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 994px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 600;
+  font-style          : normal;
+  font-size           : 21.0px;
+  color               : rgba(42, 102, 91, 1.0);
+  text-align          : right;
+  line-height         : 24.0px;
+}
+.fundraisers .sept231000am8 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 679px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 982px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 600;
+  font-style          : normal;
+  font-size           : 21.0px;
+  color               : rgba(42, 102, 91, 1.0);
+  text-align          : right;
+  line-height         : 24.0px;
+}
+.fundraisers .oct11700pm10 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 912px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 984px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 600;
+  font-style          : normal;
+  font-size           : 21.0px;
+  color               : rgba(42, 102, 91, 1.0);
+  text-align          : right;
+  line-height         : 24.0px;
+}
+.fundraisers .underdog1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 3px;
+  height              : 56px;
+  width               : 52px;
+  position            : absolute;
+  margin              : 0;
+  left                : 8px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.fundraisers .andrewyan {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 15px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 1105px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 28.0px;
+  color               : rgba(126, 207, 192, 1.0);
+  text-align          : center;
+  line-height         : 32.0px;
+}
+.fundraisers .andrewyan1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 15px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 1105px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 28.0px;
+  color               : rgba(126, 207, 192, 1.0);
+  text-align          : center;
+  line-height         : 32.0px;
+}
+.fundraisers .rectangle3 {
+  background-color    : rgba(239, 75, 75, 0.9);
+  top                 : 0px;
+  height              : 56px;
+  width               : 1280px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.fundraisers .andrewyan2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 15px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 1105px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 28.0px;
+  color               : rgba(126, 207, 192, 1.0);
+  text-align          : center;
+  line-height         : 32.0px;
+}
+.fundraisers .eventgo {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : auto;
+  width               : 347px;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 600;
+  font-style          : normal;
+  font-size           : 45.0px;
+  color               : rgba(126, 207, 192, 1.0);
+  text-align          : center;
+  line-height         : 52.0px;
+}
+.fundraisers .outputonlinepngtools {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 56px;
+  width               : 47px;
+  position            : absolute;
+  margin              : 0;
+  left                : 24px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.fundraisers .theliveauctionhos {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 976px;
+  height              : auto;
+  width               : 699px;
+  position            : absolute;
+  margin              : 0;
+  left                : 483px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 23.0px;
+  color               : rgba(42, 102, 91, 1.0);
+  text-align          : left;
+  line-height         : 27.0px;
+}
+.fundraisers .line7 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1107px;
+  height              : 5px;
+  width               : 1060px;
+  position            : absolute;
+  margin              : 0;
+  left                : 114px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.fundraisers .eastamwelltownship {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 939px;
+  height              : auto;
+  width               : 608px;
+  position            : absolute;
+  margin              : 0;
+  left                : 478px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Arial-BoldItalicMT", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(42, 102, 91, 1.0);
+  text-align          : left;
+  line-height         : 23.0px;
+}
+.fundraisers .img2389 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 910px;
+  height              : 162px;
+  width               : 281px;
+  position            : absolute;
+  margin              : 0;
+  left                : 146px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.fundraisers .bitmap2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 501px;
+  height              : 43px;
+  width               : 29px;
+  position            : absolute;
+  margin              : 0;
+  left                : 66px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.fundraisers .bitmap3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 756px;
+  height              : 43px;
+  width               : 29px;
+  position            : absolute;
+  margin              : 0;
+  left                : 66px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.fundraisers .bitmap4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 979px;
+  height              : 43px;
+  width               : 29px;
+  position            : absolute;
+  margin              : 0;
+  left                : 66px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.fundraisers .parades {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 216px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 1046px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 600;
+  font-style          : normal;
+  font-size           : 31.0px;
+  color               : rgba(42, 102, 91, 1.0);
+  text-align          : center;
+  line-height         : 31.0px;
+}
+.fundraisers .parades .span1 {
+  line-height         : 36.0px;
+}
+.fundraisers .parades .span2 {
+  font-size           : 32.0px;
+  line-height         : 37.0px;
+}
+.fundraisers .rectangle4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 201px;
+  height              : 58px;
+  width               : 58px;
+  position            : absolute;
+  margin              : 0;
+  left                : 982px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.fundraisers .rectangle5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 276px;
+  height              : 58px;
+  width               : 58px;
+  position            : absolute;
+  margin              : 0;
+  left                : 718px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.fundraisers .fundraisers1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 288px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 783px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 600;
+  font-style          : normal;
+  font-size           : 31.0px;
+  color               : rgba(42, 102, 91, 1.0);
+  text-align          : left;
+  line-height         : 31.0px;
+}
+.fundraisers .fundraisers1 .span1 {
+  line-height         : 36.0px;
+}
+.fundraisers .fundraisers1 .span2 {
+  font-size           : 32.0px;
+  line-height         : 37.0px;
+}
+.fundraisers .rectangle6 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 203px;
+  height              : 58px;
+  width               : 58px;
+  position            : absolute;
+  margin              : 0;
+  left                : 718px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.fundraisers .musicartists {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 215px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 783px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 600;
+  font-style          : normal;
+  font-size           : 31.0px;
+  color               : rgba(42, 102, 91, 1.0);
+  text-align          : left;
+  line-height         : 31.0px;
+}
+.fundraisers .musicartists .span1 {
+  line-height         : 36.0px;
+}
+.fundraisers .musicartists .span2 {
+  font-size           : 32.0px;
+  line-height         : 37.0px;
+}
+.fundraisers .eventtypes {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 142px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 722px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 600;
+  font-style          : normal;
+  font-size           : 31.0px;
+  color               : rgba(42, 102, 91, 1.0);
+  text-align          : left;
+  line-height         : 36.0px;
+}
+.fundraisers .rectangle7 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 272px;
+  height              : 58px;
+  width               : 58px;
+  position            : absolute;
+  margin              : 0;
+  left                : 982px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.fundraisers .protests {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 284px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 1047px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 600;
+  font-style          : normal;
+  font-size           : 31.0px;
+  color               : rgba(42, 102, 91, 1.0);
+  text-align          : left;
+  line-height         : 31.0px;
+}
+.fundraisers .protests .span1 {
+  line-height         : 36.0px;
+}
+.fundraisers .protests .span2 {
+  font-size           : 32.0px;
+  line-height         : 37.0px;
+}
+.fundraisers .outputonlinepngtools1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 98px;
+  height              : 236px;
+  width               : 199px;
+  position            : absolute;
+  margin              : 0;
+  left                : 34px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.fundraisers .outputonlinepngtools2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 280px;
+  height              : 40px;
+  width               : 53px;
+  position            : absolute;
+  margin              : 0;
+  left                : 986px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.fundraisers .outputonlinepngtools3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 209px;
+  height              : 35px;
+  width               : 36px;
+  position            : absolute;
+  margin              : 0;
+  left                : 993px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.fundraisers .bitmap5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 216px;
+  height              : 31px;
+  width               : 31px;
+  position            : absolute;
+  margin              : 0;
+  left                : 730px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.fundraisers .dollarsigntransparentbackground3926 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 288px;
+  height              : 35px;
+  width               : 35px;
+  position            : absolute;
+  margin              : 0;
+  left                : 730px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.fundraisers .bitmap6 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 909px;
+  height              : 163px;
+  width               : 284px;
+  position            : absolute;
+  margin              : 0;
+  left                : 143px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}

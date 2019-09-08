@@ -1,0 +1,477 @@
+
+@font-face {
+                          font-family: "Arial-BoldItalicMT";
+                          src: url('../fonts/Arial Bold Italic.ttf') format("truetype");
+                        }
+                        @font-face {
+                          font-family: "Arial-ItalicMT";
+                          src: url('../fonts/Arial Italic.ttf') format("truetype");
+                        }
+                        
+.profile {
+  width               : 100%;
+  min-width           : 1280px;
+  height              : 100vh;
+  min-height          : 921px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color    : rgba(236, 143, 106, 1.0);
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.anima-full-width-a {
+  width               : 100%;
+}
+.anima-full-height-a {
+  height              : 100%;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.profile .andrewyan {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 161px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 505px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 600;
+  font-style          : normal;
+  font-size           : 42.0px;
+  color               : rgba(42, 102, 91, 1.0);
+  text-align          : center;
+  line-height         : 48.0px;
+}
+.profile .rectangle {
+  background-color    : rgba(126, 207, 192, 1.0);
+  top                 : 376px;
+  height              : 65px;
+  width               : 326px;
+  position            : absolute;
+  margin              : 0;
+  left                : 642px;
+  border-radius       : 8px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.profile .createevent {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 388px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 698px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 600;
+  font-style          : normal;
+  font-size           : 36.0px;
+  color               : rgba(239, 75, 75, 1.0);
+  text-align          : center;
+  line-height         : 42.0px;
+}
+.profile .line {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 488px;
+  height              : 6px;
+  width               : 1061px;
+  position            : absolute;
+  margin              : 0;
+  left                : 111px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.profile .mybookmarkedevents {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 510px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 109px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 600;
+  font-style          : normal;
+  font-size           : 36.0px;
+  color               : rgba(42, 102, 91, 1.0);
+  text-align          : center;
+  line-height         : 42.0px;
+}
+.profile .andrewmyangmailc {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 258px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 505px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 600;
+  font-style          : normal;
+  font-size           : 28.0px;
+  color               : rgba(42, 102, 91, 1.0);
+  text-align          : center;
+  line-height         : 32.0px;
+}
+.profile .princetonnj {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 223px;
+  height              : auto;
+  width               : 404px;
+  position            : absolute;
+  margin              : 0;
+  left                : 506px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 600;
+  font-style          : normal;
+  font-size           : 28.0px;
+  color               : rgba(42, 102, 91, 1.0);
+  text-align          : left;
+  line-height         : 32.0px;
+}
+.profile .img1302 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 161px;
+  height              : 299px;
+  width               : 287px;
+  position            : absolute;
+  margin              : 0;
+  left                : 184px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.profile .changeprofilepictu {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 460px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 337px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Arial-ItalicMT", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(42, 102, 91, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.profile .rectangle1 {
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : 597px;
+  height              : 170px;
+  box-sizing          : border-box;
+  width               : 282px;
+  position            : absolute;
+  margin              : 0;
+  left                : 137px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(150, 150, 150, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.profile .princetonnj1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 633px;
+  height              : auto;
+  width               : 608px;
+  position            : absolute;
+  margin              : 0;
+  left                : 470px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Arial-BoldItalicMT", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(42, 102, 91, 1.0);
+  text-align          : left;
+  line-height         : 23.0px;
+}
+.profile .watchandrewyanper {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 674px;
+  height              : auto;
+  width               : 699px;
+  position            : absolute;
+  margin              : 0;
+  left                : 470px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 23.0px;
+  color               : rgba(42, 102, 91, 1.0);
+  text-align          : left;
+  line-height         : 27.0px;
+}
+.profile .andrewyan1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 601px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 470px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 600;
+  font-style          : normal;
+  font-size           : 28.0px;
+  color               : rgba(42, 102, 91, 1.0);
+  text-align          : left;
+  line-height         : 32.0px;
+}
+.profile .sept10300pm7 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 590px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 988px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 600;
+  font-style          : normal;
+  font-size           : 21.0px;
+  color               : rgba(42, 102, 91, 1.0);
+  text-align          : right;
+  line-height         : 24.0px;
+}
+.profile .img13021 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 597px;
+  height              : 171px;
+  width               : 282px;
+  position            : absolute;
+  margin              : 0;
+  left                : 137px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.profile .bitmap {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 651px;
+  height              : 43px;
+  width               : 29px;
+  position            : absolute;
+  margin              : 0;
+  left                : 60px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.profile .clickheretocontin {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 813px;
+  height              : auto;
+  width               : 533px;
+  position            : absolute;
+  margin              : 0;
+  left                : 374px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Arial-BoldItalicMT", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(42, 102, 91, 1.0);
+  text-align          : center;
+  line-height         : 28.0px;
+}
+.profile .andrewyan2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 15px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 1105px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 28.0px;
+  color               : rgba(126, 207, 192, 1.0);
+  text-align          : center;
+  line-height         : 32.0px;
+}
+.profile .rectangle2 {
+  background-color    : rgba(239, 75, 75, 0.9);
+  top                 : 0px;
+  height              : 56px;
+  width               : 1280px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.profile .andrewyan3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 15px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 1105px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 28.0px;
+  color               : rgba(126, 207, 192, 1.0);
+  text-align          : center;
+  line-height         : 32.0px;
+}
+.profile .eventgo {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : auto;
+  width               : 347px;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 600;
+  font-style          : normal;
+  font-size           : 45.0px;
+  color               : rgba(126, 207, 192, 1.0);
+  text-align          : center;
+  line-height         : 52.0px;
+}
+.profile .outputonlinepngtools {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 56px;
+  width               : 47px;
+  position            : absolute;
+  margin              : 0;
+  left                : 24px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
